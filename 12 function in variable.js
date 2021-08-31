@@ -14,25 +14,28 @@ function getUserRole(name , role){
     switch (role) {
         case "admin":
             return `${name} is admin with all access`
-            break;
+            // break;
         case "subadmin":
             return `${name} is sub-admin with all access to delete and create courses`
-            break;
+            // break;
         case "testadmin":
             return `${name} is test-admin with all access to create and delete tests`
-            break;
+            // break;
         case "user":
             return `${name} Welcome to LCO ! `
-            break;
+            // break;
     
         default:
-            return `Trial user`
-            break;
+            return `${name} is a Trial user`
+            // break;
     }
+    /* If we remove the break statement there is no change */
 }
-
 console.log(getUserRole('Abir Pal', 'testadmin'))
-console.log(getUserRole('Saikat Mukherjee', 'admin'))
+
+let getrole = getUserRole('Saikat Mukherjee', '');
+console.log(getrole);
+
 getUserRole('Anish Gupta', "subadmin"); // => Not displaying anything
 console.log('\n');
 

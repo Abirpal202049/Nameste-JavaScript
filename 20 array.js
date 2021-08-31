@@ -1,5 +1,3 @@
-const { log } = require("console");
-
 var name = ['Abir' , 'Rupam' , 'Saikat' , 'Soumyajit'];
 // Index      0         1         2           3
 
