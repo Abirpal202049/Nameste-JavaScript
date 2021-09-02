@@ -8,12 +8,13 @@ NaN
 Todo : truthy value
 everything other than falsy value are truthy value
 */
-var user = null; // falsy value
+var user = ''; // falsy value
 if(user){
     console.log("It is true");
 }
 
 // use of == and === (Coercion) meaning:- Forcefully matching (number)2 and (string)"2"
+// [== match the two number only by their value but , === mathch the two value not only by their value but also by their datatype]
 var a = "02"; // Here 2 is string
 if(a == 2){ // Here 2 is a number => Checking only the VALUE and not the TYPE
     console.log("The statement is correct  with ==");
