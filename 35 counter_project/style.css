@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #3B3A3B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 30px;
+}
+.logo{
+    border-radius: 100%;
+    margin: 2.5em;
+}
+.counter{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.followers{
+    font-size: 2em;
+}
