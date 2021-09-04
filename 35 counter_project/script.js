@@ -12,6 +12,7 @@ setInterval(() => {
         count++
     }
 }, 1);
+
 setInterval(() => {
     if(count <= 980){
         counter.innerHTML = count;
