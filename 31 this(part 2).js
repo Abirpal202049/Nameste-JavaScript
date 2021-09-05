@@ -21,6 +21,7 @@ var user = {
 };
 
 user.getCourseCount(); // Object Call
+console.table(user);
 
 
 
